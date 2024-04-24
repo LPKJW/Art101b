@@ -1,21 +1,19 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Lab 4 - Pseudocode to JavaScript
+// Tic-Tac_Toe
+// An implementation of the game
+// Author: Lars Widman <lpwidman@ucsc.edu>
+// April 2024
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// Example: Creating a Tic-Tac-Toe game
+// 1. Print the board before each turn
+//     // Loop through each row
+//         // Loop through each space
+//             // Print X, O, or Space
+//             // Print a | between
+//         // Print a newline at the end
+//         // Print a horizontal line between
+// 2. Accept user input
+// 3. Validate user move
+// 4. Evaluate possible moves
+// 5. Choose computer move
+// 6. Test for win or draw condition
