@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 9 - Libraries & jQuery</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="lab9.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="lab9.js" defer></script>
+</head>
+<body>
+    <!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+    <main id="content">
+        <section>
+            <h1>Lab 9 - Libraries & jQuery</h1>
+            <div class="minor-section" id="challenge">
+                <h2>Challenge</h2>
+                <p>The challenge that we were given in this lab was to find a way to make the different sections of the page become special using buttons which would change how they would look when you pushed them.</p>
+                <button onclick="toggleSpecial('challenge')">Make Special</button>
+            </div>
+
+            <div class="minor-section" id="problems">
+                <h2>Problems</h2>
+                <p>I ended up accidentally creating two buttons that now do the same thing for each of the sections, but it doesn't really affec the sections to I think I'll just leave it like that.</p>
+                <button onclick="toggleSpecial('problems')">Make Special</button>
+            </div>
+
+            <div class="minor-section" id="results">
+                <h2>Results</h2>
+                <div id="output"></div>
+                <button onclick="toggleSpecial('results')">Make Special</button>
+            </div>
+        </section>
+        <nav id="links">
+            <!-- Put links to other pages (including the homepage) here. -->
+        </nav>
+    </main>
+
+    <script>
+        // Function to toggle the special class for a given section
+        function toggleSpecial(sectionId) {
+            $("#" + sectionId).toggleClass("special");
+        }
+    </script>
+</body>
+</html>

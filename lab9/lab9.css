@@ -1,0 +1,25 @@
+/* Here we can set styles for this lab page that we don't want to affect others pages */
+
+/* Styles for sections with class "minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
+/* Styles for the element with id "output" */
+#output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+}
+
+/* Styles for special sections */
+.special {
+    background-color: lavender;
+    border: dotted 50px red;
+    color: pink;
+    font-weight: bold;
+}
