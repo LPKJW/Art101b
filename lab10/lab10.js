@@ -3,8 +3,8 @@
 
    Requirements: jQuery must be loaded for this script to work.
 
-   Authors: Lars Widman
-   Date: May 17th, 2024
+   Author: Lars Widman
+   Date: 2024
 */
 
 // Function to generate random text
@@ -19,8 +19,8 @@ function generateRandomText() {
     return text.slice(randStart, randStart + randLen);
 }
 
-// Click event listener for button
-$("#make-convo").click(function(){
+// Click listener for button
+$("#make-convo").click(function() {
     // Get new fake dialogue
     const newText = generateRandomText();
     // Append a new div to our output div

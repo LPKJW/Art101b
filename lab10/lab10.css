@@ -1,12 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+#make-convo {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#make-convo:hover {
+  background-color: #0056b3;
+}
+
 .text p {
-    display: inline-block;
-    max-width: 60%;
-    margin: 3px;
-    padding: 5px 10px;
-    border-radius: 15px;
-    background-color: darkgray;
-    color: white;
-    font-family: sans-serif;
-    font-size: 0.8em;
-  }
-  
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
